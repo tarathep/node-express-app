@@ -2,12 +2,12 @@
   "name": "node-express-app",
   "version": "1.0.0",
   "description": "Example application rest API + Unittest with node-express and Jest",
-  "main": "index.js",
+  "main": "server.js",
   "directories": {
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
