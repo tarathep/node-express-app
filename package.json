@@ -1,0 +1,30 @@
+{
+  "name": "node-express-app",
+  "version": "1.0.0",
+  "description": "Example application rest API + Unittest with node-express and Jest",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarathep/node-express-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tarathep/node-express-app/issues"
+  },
+  "homepage": "https://github.com/tarathep/node-express-app#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "node-mocks-http": "^1.11.0"
+  },
+  "devDependencies": {
+    "jest": "^27.4.5"
+  }
+}
